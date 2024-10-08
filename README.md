@@ -22,10 +22,11 @@ A web-based Library Management System that allows users to manage, issue, return
 ## Screenshot
 Below is a screenshot of the return book page, where users can view the list of books they’ve issued and return them by clicking the "Return" button.
 
-![Return Page](./Return.PNG)
-![Issue Page](./Issue.PNG)
-![Search Page](./Search.PNG)
-![home Page](./home.PNG)
+![image](https://github.com/user-attachments/assets/a07fb70e-131b-4e4f-9ad9-f206302dd110)
+![image](https://github.com/user-attachments/assets/662c4e11-778b-4d50-9a81-60ae9227e942)
+
+
+
 
 
 In this view, the user can see details such as the book title, author, semester number, issue date, and return deadline.

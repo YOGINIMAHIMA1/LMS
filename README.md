@@ -1,68 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Library Management System
 
-## Available Scripts
+A web-based Library Management System that allows users to manage, issue, return, and view books efficiently. This project is designed to simplify library operations for both students and administrators.
 
-In the project directory, you can run:
+## Table of Contents
+- [Features](#features)
+- [Screenshot](#screenshot)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Code Overview](#code-overview)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Features
+- **Book Issuing**: Users can issue books by searching for the available books and authors.
+- **Book Returning**: Allows users to return the books they've borrowed, with the return date and book details displayed.
+- **View Issued Books**: Displays a list of all books a user has issued with important details such as the author, issue date, and return deadline.
+- **Book Search**: Users can search for books by title or author.
+- **Admin Functions**: Admins can manage book records and issue or return books on behalf of users.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Screenshot
+Below is a screenshot of the return book page, where users can view the list of books they’ve issued and return them by clicking the "Return" button.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![Return Page](./Return.PNG)
+![Issue Page](./Issue.PNG)
+![Search Page](./Search.PNG)
+![home Page](./home.PNG)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In this view, the user can see details such as the book title, author, semester number, issue date, and return deadline.
 
-### `npm run build`
+## Technologies Used
+- **Frontend**: 
+  - **React.js**: For building a dynamic and responsive user interface.
+  - **CSS/Flexbox**: For layout and design.
+  
+- **Backend** (if applicable):
+  - **Node.js**: Handles server-side requests and API routes.
+  - **Express.js**: Provides API endpoints for operations like issuing and returning books.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Database**:
+  - **MongoDB (or MySQL)**: Stores information related to users, books, and transactions.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Installation
+To set up this project locally on your system, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the Repository**:
+   `
+   git clone https://github.com/your-username/library-management-system.git`
 
-### `npm run eject`
+- **Usage**: Explains how to interact with the application once it's running.
+ - **Code Overview**: Gives a brief explanation of key parts of the codebase, both frontend and backend.
+- **Contributing**: Provides instructions for others to contribute to the project.
+- **License**: Mentions the license under which the project is shared.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
